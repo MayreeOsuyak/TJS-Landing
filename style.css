@@ -19,7 +19,7 @@ body{
 .container{
     background-color: #F1F5FE;
     margin: 0 auto;
-    padding: 0 3rem;
+    padding: 0 2rem;
     justify-content: space-between;
     display: flex;
 }
@@ -97,7 +97,7 @@ body{
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;
-    padding: 0 96px;
+    padding: 0 4rem;
     height: 275px    
 }
 .image img{
@@ -167,7 +167,7 @@ body{
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;
-    padding: 0 96px;
+    padding: 0 4rem;
     height: 295px;
     background-color: #F5F8FE;
 }
