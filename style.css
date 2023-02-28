@@ -4,17 +4,12 @@
     box-sizing: border-box;
 }
 body{
-    margin-top: 15px;
-    margin-bottom: 15px; 
     background: #000000;
     
 
 }
 .bigWrapper{
-    
-    max-width: 60rem;
     margin: auto;
-    border-radius: 30px !important;
 }
 .container{
     background-color: #F1F5FE;
@@ -26,15 +21,10 @@ body{
 .logo{
     display: flex;
     align-items: center;
-    padding: 0px;
+    padding-left: 2cm;
     cursor: pointer;
     
-}
-.logo img{
-    width: 40px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    
 }
 .logo h3{
     font-family: 'Manrope';
@@ -67,62 +57,54 @@ body{
     font-style: normal;
     font-weight: 500;
     line-height: 18px;
-    font-size: 24px;
+    font-size: 28px;
     letter-spacing: -0.02em;
     color: #000000;    
 }
 .home{
     text-decoration: underline #155EEF !important;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
     }
 .btn{
     display: inline-block;
-    padding: 4px 4px;
+    padding: 5px 5px;
     border-radius: 8px;
     border: 1px solid #155EEF;
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 800;
-    font-size: 16px !important;
+    font-size: 24px !important;
     line-height: 150%;
     letter-spacing: 0.5px;
     color: #155EEF !important;
 }
 .body{
-    background-color: #191919;
+    background-color: #000000;
     color: #fff;
     display: flex;
     align-items: center;
+    gap: 10px;
     justify-content: space-between;
     margin: 0 auto;
-    padding: 0 4rem;
-    height: 275px    
+    padding: 0 4rem; 
 }
 .image img{
-    width: 250px;
-    padding-top: 10px;
+    width: 100%;
+    padding-top: 40px;
 }
 .cta{
     display: flex;
     flex-direction: row;
     align-items: center;
     background: #155EEF;
-    border-radius: 8px;
-    padding: 4px 4px;
-    margin-top: 4px;
+    border-radius: 4px;
+    padding: 10px 10px;
     width: fit-content;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
 }
 .cta .btns{  
     font-family: 'Manrope';
     font-style: normal;
-    font-weight: 400;
-    font-size: 12px !important;
-    line-height: 150%;
+    font-weight: 500;
+    font-size: 16px !important;
     letter-spacing: 0.5px;
     color: #fff;
     text-decoration: none;
@@ -130,116 +112,101 @@ body{
 .text h5{
     font-family: 'Halant';
     font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 150%;
+    font-weight: 600;
+    font-size: 24px;
     letter-spacing: 0.5px;
     color: #B8B8B8;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 .text h3{
     font-family: 'Halant';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 32px;
-    line-height: 120%;
     color: #FFFFFF;
-    flex: none;
-    order: 0;
-    flex-grow: 1;
 }
 .text p{
     font-family: 'Manrope';
     font-style: normal;
-    font-weight: 400;
-    font-size: 16.5px;
-    line-height: 25px;
+    font-weight: 500;
+    font-size: 30px;
     letter-spacing: 0.5px;
-    margin: 0;
-    padding: 0;
+   
     color: #A3A3A3;
-    flex: none;
-    order: 0;
-    flex-grow: 1;
+    margin-bottom: 26px;
 }
 .about-me{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;
-    padding: 0 4rem;
-    height: 295px;
+    padding: 0 5rem;
+    gap: 10px;
     background-color: #F5F8FE;
 }
+.about-me-text{
+    width: 45%;
+}
+.images{
+    width: 45%;
+}
 .images img{
-    width: 300px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .about-me-text h3{
     font-family: 'Halant';
     font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 30px;
-    color: #000000;
-    flex: none;
-    order: 0;
-    flex-grow: 0; 
+    font-weight: 600;
+    font-size: 35px;
+    color: #000000; 
 }
 .about-me-text p{
     font-family: 'Manrope';
     font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
+    font-weight: 500;
+    font-size: 22px;
     line-height: 150%;
     text-align: justify;
     letter-spacing: 0.5px;
     color: #000000;
-    flex: none;
-    order: 0;
-    flex-grow: 1;
+
 }
 .ctas{
     display: inline-block;
     align-items: center;
-    padding-top: 15px !important;
+    padding-top: 20px !important;
+    margin: 10px;
 }
 .ctas .abt{
     background: #155EEF;
-    border-radius: 8px;
+    border-radius: 5px;
     color: #fff;
-    padding: 5px 5px;
+    padding: 7px 10px;
     font-family: 'Manrope';
     font-style: normal;
     text-decoration: none;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 100%;
-    letter-spacing: 0.3px;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.5px;
     text-decoration: none;
     width: fit-content;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+    margin-right: 10px;
 }
 .ctas .abts{
     font-family: 'Manrope';
     font-style: normal;
     text-decoration: none;
-    padding: 5px 5px;
-    border-radius: 8px;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 100%;
+    padding: 7px 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 14px;
     background-color: #fff !important;
     border: 1px solid #155EEF;
     width: fit-content;
-    letter-spacing: 0.3px;
+    letter-spacing: 0.5px;
     color: #155EEF;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    
 }
 .foot{
     background-color: #191919;
@@ -257,9 +224,6 @@ body{
 }
 .foot .logos img{
     width: 40px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }    
 .logos h3{
     font-family: 'Manrope';
@@ -269,9 +233,6 @@ body{
     line-height: 50px;
     letter-spacing: -0.02em;
     color: #ffffff;
-    flex: none;
-    order: 1;
-    flex-grow: 0
 }
 .foot-links ul{
     display: flex;
@@ -282,9 +243,6 @@ body{
 .foot-links{
     display: flex;
     align-items: center;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
     margin-left: 4rem;
 }
 .foot-links img{
@@ -294,13 +252,9 @@ body{
 .foot p{
     font-family: 'Manrope';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
-    line-height: 150%;
     margin: 12px 0;
     letter-spacing: 0.5px;
     color: #FFFFFF;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
